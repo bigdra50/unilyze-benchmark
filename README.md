@@ -3,6 +3,10 @@
 [unilyze](https://github.com/bigdra50/unilyze) のベンチマーク用リポジトリ。
 サンプルのUnityプロジェクトに対して解析を実行し、解析モードごとの結果を比較する。
 
+## プレイ動画
+
+https://github.com/user-attachments/assets/b86bcd5f-626e-47ef-947f-61f40ec37cc7
+
 ## プロジェクト構成
 
 ```
