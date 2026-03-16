@@ -1,0 +1,50 @@
+/* ResultScreen.uss */
+
+#result-overlay {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#result-panel {
+    width: 400px;
+    align-items: center;
+}
+
+#result-title {
+    font-size: 40px;
+    color: #e94560;
+    -unity-text-align: middle-center;
+    margin-bottom: 24px;
+}
+
+#stats-container {
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.stat-row {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+
+.stat-key {
+    font-size: 16px;
+    color: #e0e0e0;
+}
+
+.stat-value {
+    font-size: 16px;
+    color: #e94560;
+}
+
+#result-buttons {
+    flex-direction: row;
+}
+
+#result-buttons > .btn {
+    width: 140px;
+    margin: 0 8px;
+}

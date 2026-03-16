@@ -1,0 +1,23 @@
+/* MessageLog.uss */
+
+#message-log-root {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    padding: 8px 16px;
+    background-color: rgba(26, 26, 46, 0.75);
+}
+
+#message-scroll .unity-scroll-view__content-container {
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.message-label {
+    font-size: 14px;
+    color: #e0e0e0;
+    margin-bottom: 2px;
+    white-space: normal;
+}

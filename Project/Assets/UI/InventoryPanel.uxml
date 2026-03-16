@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="InventoryPanel.uss" />
+
+    <ui:VisualElement name="inventory-overlay">
+        <ui:VisualElement name="inventory-panel" class="panel">
+            <ui:Label name="inventory-title" text="Inventory" />
+            <ui:ScrollView name="item-scroll" />
+            <ui:Button name="btn-close" class="btn" text="Close (E)" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

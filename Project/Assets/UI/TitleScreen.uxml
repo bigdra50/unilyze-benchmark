@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="TitleScreen.uss" />
+
+    <ui:VisualElement name="title-root">
+        <ui:Label name="title-label" class="title" text="PRIMITIVE DUNGEON" />
+        <ui:Label name="subtitle-label" class="subtitle" text="A Roguelike Made of Shapes" />
+
+        <ui:VisualElement name="button-container">
+            <ui:Button name="btn-new-game" class="btn" text="New Game" />
+            <ui:Button name="btn-continue" class="btn" text="Continue" enabled="false" />
+            <ui:Button name="btn-settings" class="btn" text="Settings" />
+            <ui:Button name="btn-quit" class="btn" text="Quit" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

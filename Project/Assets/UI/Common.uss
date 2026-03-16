@@ -1,0 +1,56 @@
+/* ================================================
+   Common.uss - Primitive Dungeon shared styles
+   ================================================ */
+
+:root {
+    --color-bg: #1a1a2e;
+    --color-text: #e0e0e0;
+    --color-accent: #e94560;
+    --color-navy: #0f3460;
+    --color-dark-navy: #16213e;
+}
+
+.unity-label {
+    color: var(--color-text);
+}
+
+/* Title */
+.title {
+    font-size: 48px;
+    color: var(--color-text);
+    -unity-text-align: middle-center;
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 24px;
+    color: var(--color-text);
+    -unity-text-align: middle-center;
+}
+
+/* Button */
+.btn {
+    background-color: var(--color-navy);
+    color: var(--color-text);
+    border-width: 0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 18px;
+    -unity-text-align: middle-center;
+    transition-duration: 0.15s;
+}
+
+.btn:hover {
+    background-color: var(--color-accent);
+}
+
+.btn:disabled {
+    opacity: 0.4;
+}
+
+/* Panel */
+.panel {
+    background-color: rgba(22, 33, 62, 0.9);
+    border-radius: 8px;
+    padding: 16px;
+}

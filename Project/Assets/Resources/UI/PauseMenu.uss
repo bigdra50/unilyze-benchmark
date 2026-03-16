@@ -1,0 +1,25 @@
+/* PauseMenu.uss */
+
+#pause-overlay {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#pause-panel {
+    width: 340px;
+    align-items: center;
+}
+
+#pause-title {
+    font-size: 36px;
+    color: #e94560;
+    -unity-text-align: middle-center;
+    margin-bottom: 24px;
+}
+
+#pause-panel > .btn {
+    width: 240px;
+    margin-bottom: 10px;
+}

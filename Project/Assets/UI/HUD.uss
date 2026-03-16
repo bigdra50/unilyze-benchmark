@@ -1,0 +1,60 @@
+/* HUD.uss */
+
+#hud-root {
+    flex-grow: 1;
+}
+
+/* Top-left status panel */
+#status-panel {
+    position: absolute;
+    left: 16px;
+    top: 16px;
+    padding: 12px;
+    min-width: 200px;
+}
+
+#floor-label {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 4px;
+}
+
+#level-label {
+    font-size: 16px;
+    color: #e0e0e0;
+    margin-bottom: 8px;
+}
+
+#hp-bar-bg {
+    height: 20px;
+    background-color: #1a1a2e;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+#hp-bar-fill {
+    height: 100%;
+    width: 100%;
+    background-color: #e94560;
+    border-radius: 4px;
+}
+
+#hp-label {
+    font-size: 14px;
+    color: #e0e0e0;
+    -unity-text-align: middle-center;
+}
+
+/* Bottom-right minimap frame */
+#minimap-frame {
+    position: absolute;
+    right: 16px;
+    bottom: 16px;
+    width: 160px;
+    height: 160px;
+    border-width: 2px;
+    border-color: #0f3460;
+    border-radius: 4px;
+    background-color: rgba(22, 33, 62, 0.7);
+}

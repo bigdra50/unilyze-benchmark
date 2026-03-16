@@ -1,0 +1,51 @@
+/* SettingsPanel.uss */
+
+#settings-overlay {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#settings-panel {
+    width: 380px;
+    align-items: center;
+}
+
+#settings-title {
+    font-size: 28px;
+    color: #e94560;
+    -unity-text-align: middle-center;
+    margin-bottom: 20px;
+}
+
+.settings-row {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.settings-row > .unity-label {
+    font-size: 16px;
+    color: #e0e0e0;
+    min-width: 100px;
+}
+
+#se-volume-slider {
+    flex-grow: 1;
+}
+
+#se-volume-slider .unity-base-slider__dragger {
+    background-color: #e94560;
+}
+
+#se-volume-slider .unity-base-slider__tracker {
+    background-color: #0f3460;
+}
+
+#btn-settings-close {
+    width: 180px;
+    margin-top: 8px;
+}

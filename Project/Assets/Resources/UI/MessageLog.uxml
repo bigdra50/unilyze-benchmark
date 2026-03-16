@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="MessageLog.uss" />
+
+    <ui:VisualElement name="message-log-root" picking-mode="Ignore">
+        <ui:ScrollView name="message-scroll" />
+    </ui:VisualElement>
+</ui:UXML>

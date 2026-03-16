@@ -1,0 +1,20 @@
+{
+    "name": "App.Game",
+    "rootNamespace": "App.Game",
+    "references": [
+        "App.Core",
+        "Unity.InputSystem",
+        "UniTask",
+        "VContainer",
+        "VContainer.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

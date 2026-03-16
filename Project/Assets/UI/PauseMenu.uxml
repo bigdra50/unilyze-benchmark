@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="PauseMenu.uss" />
+
+    <ui:VisualElement name="pause-overlay">
+        <ui:VisualElement name="pause-panel" class="panel">
+            <ui:Label name="pause-title" class="title" text="PAUSED" />
+            <ui:Button name="btn-resume" class="btn" text="Resume" />
+            <ui:Button name="btn-save" class="btn" text="Save" />
+            <ui:Button name="btn-settings" class="btn" text="Settings" />
+            <ui:Button name="btn-quit-title" class="btn" text="Quit to Title" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

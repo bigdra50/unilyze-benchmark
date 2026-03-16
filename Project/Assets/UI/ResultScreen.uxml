@@ -1,0 +1,34 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="ResultScreen.uss" />
+
+    <ui:VisualElement name="result-overlay">
+        <ui:VisualElement name="result-panel" class="panel">
+            <ui:Label name="result-title" class="title" text="GAME OVER" />
+
+            <ui:VisualElement name="stats-container">
+                <ui:VisualElement class="stat-row">
+                    <ui:Label class="stat-key" text="Floor" />
+                    <ui:Label name="stat-floor" class="stat-value" text="0" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label class="stat-key" text="Enemies Defeated" />
+                    <ui:Label name="stat-enemies" class="stat-value" text="0" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label class="stat-key" text="Level" />
+                    <ui:Label name="stat-level" class="stat-value" text="0" />
+                </ui:VisualElement>
+                <ui:VisualElement class="stat-row">
+                    <ui:Label class="stat-key" text="Score" />
+                    <ui:Label name="stat-score" class="stat-value" text="0" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+
+            <ui:VisualElement name="result-buttons">
+                <ui:Button name="btn-retry" class="btn" text="Retry" />
+                <ui:Button name="btn-title" class="btn" text="Title" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

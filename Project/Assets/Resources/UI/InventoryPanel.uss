@@ -1,0 +1,47 @@
+/* InventoryPanel.uss */
+
+#inventory-overlay {
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#inventory-panel {
+    width: 420px;
+    max-height: 500px;
+}
+
+#inventory-title {
+    font-size: 28px;
+    color: #e94560;
+    -unity-text-align: middle-center;
+    margin-bottom: 12px;
+}
+
+#item-scroll {
+    flex-grow: 1;
+    min-height: 100px;
+    max-height: 340px;
+    margin-bottom: 12px;
+}
+
+.item-button {
+    background-color: #16213e;
+    color: #e0e0e0;
+    border-width: 0;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 15px;
+    margin-bottom: 4px;
+    -unity-text-align: middle-left;
+}
+
+.item-button:hover {
+    background-color: #e94560;
+}
+
+#btn-close {
+    align-self: center;
+    width: 180px;
+}

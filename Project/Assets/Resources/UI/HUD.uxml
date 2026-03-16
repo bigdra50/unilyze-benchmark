@@ -1,0 +1,19 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <Style src="Common.uss" />
+    <Style src="HUD.uss" />
+
+    <ui:VisualElement name="hud-root" picking-mode="Ignore">
+        <!-- Top-left status -->
+        <ui:VisualElement name="status-panel" class="panel">
+            <ui:Label name="floor-label" text="Floor 1" />
+            <ui:Label name="level-label" text="Lv.1" />
+            <ui:VisualElement name="hp-bar-bg">
+                <ui:VisualElement name="hp-bar-fill" />
+            </ui:VisualElement>
+            <ui:Label name="hp-label" text="HP: 100/100" />
+        </ui:VisualElement>
+
+        <!-- Bottom-right minimap -->
+        <ui:VisualElement name="minimap-frame" />
+    </ui:VisualElement>
+</ui:UXML>
