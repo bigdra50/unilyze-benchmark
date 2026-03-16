@@ -62,6 +62,9 @@ crashlytics-build.properties
 *.unitypackage
 *.app
 
+# Analysis results
+/results/
+
 # Plastic SCM
 ignore.conf
 *.private.0
