@@ -22,7 +22,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - uses: bigdra50/unilyze@v1
+      - uses: bigdra50/unilyze@v0.5.2
         id: unilyze
         with:
           project-path: Project
