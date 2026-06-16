@@ -1,0 +1,46 @@
+name: Badges
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: badges-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  badges:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Install Unilyze
+        run: dotnet tool install --global Unilyze
+
+      - name: Generate badge SVGs
+        run: |
+          mkdir -p /tmp/badge-data
+          for metric in codehealth mi smells; do
+            unilyze badge -p Project --metric "$metric" --format svg \
+              -o "/tmp/badge-data/$metric.svg"
+          done
+
+      - name: Push to badges branch
+        run: |
+          cd /tmp/badge-data
+          git init -q -b badges
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -qm "update badges"
+          git push -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" badges
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

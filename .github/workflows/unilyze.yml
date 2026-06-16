@@ -1,0 +1,41 @@
+name: Unilyze
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  security-events: write
+  pull-requests: write
+
+concurrency:
+  group: unilyze-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: bigdra50/unilyze@v1
+        id: unilyze
+        with:
+          project-path: Project
+          metric: codehealth
+          fail-under: "8.0"
+          base-ref: ${{ github.event_name == 'pull_request' && 'origin/main' || '' }}
+          fail-on-regression: "true"
+          sarif: "true"
+          step-summary: "true"
+          pr-comment: "true"
+
+      - uses: github/codeql-action/upload-sarif@v3
+        if: always()
+        with:
+          sarif_file: ${{ steps.unilyze.outputs.sarif-path }}
+          category: unilyze

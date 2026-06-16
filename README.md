@@ -1,5 +1,9 @@
 # unilyze-benchmark
 
+[![Code Health](https://raw.githubusercontent.com/bigdra50/unilyze-benchmark/badges/codehealth.svg)](https://github.com/bigdra50/unilyze/blob/main/docs/metrics.md)
+[![Maintainability Index](https://raw.githubusercontent.com/bigdra50/unilyze-benchmark/badges/mi.svg)](https://github.com/bigdra50/unilyze/blob/main/docs/metrics.md)
+[![Code Smells](https://raw.githubusercontent.com/bigdra50/unilyze-benchmark/badges/smells.svg)](https://github.com/bigdra50/unilyze/blob/main/docs/metrics.md)
+
 [unilyze](https://github.com/bigdra50/unilyze) のベンチマーク用リポジトリ。
 サンプルのUnityプロジェクトに対して解析を実行し、解析モードごとの結果を比較する。
 
