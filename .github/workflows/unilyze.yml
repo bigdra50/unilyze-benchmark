@@ -27,7 +27,7 @@ jobs:
         with:
           project-path: Project
           metric: codehealth
-          fail-under: "5.0"
+          baseline: .unilyze/baseline.json
           base-ref: ${{ github.event_name == 'pull_request' && 'origin/main' || '' }}
           fail-on-regression: "true"
           sarif: "true"

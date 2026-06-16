@@ -30,6 +30,7 @@ jobs:
           mkdir -p /tmp/badge-data
           for metric in codehealth mi smells; do
             unilyze badge -p Project --metric "$metric" --format svg \
+              --baseline .unilyze/baseline.json \
               -o "/tmp/badge-data/$metric.svg"
           done
 

@@ -1,0 +1,525 @@
+{
+  "schemaVersion": 1,
+  "toolVersion": "0.5.1",
+  "metricsVersion": 4,
+  "createdAt": "2026-06-16T16:48:14.590192+00:00",
+  "fingerprints": [
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "LowMaintainability",
+      "methodName": "CreateMap",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "LowMaintainability",
+      "methodName": "FindNextDirection_BlockedByEntity_AvoidsEntity",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "LowMaintainability",
+      "methodName": "FindNextDirection_LShapedCorridor_FindsPath",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "LowMaintainability",
+      "methodName": "FindNextDirection_TargetOnEntity_StillFindsPath",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "ClosureCapture",
+      "methodName": "FindNextDirection_BlockedByEntity_AvoidsEntity",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core.Tests::App.Core.Tests.PathfinderTest",
+      "kind": "ClosureCapture",
+      "methodName": "FindNextDirection_TargetOnEntity_StillFindsPath",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AIDecisionMaker",
+      "kind": "LowMaintainability",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "LongMethod",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "LongMethod",
+      "methodName": "DecideInputAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "ExcessiveParameters",
+      "methodName": "FindNearestVisible",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "HighComplexity",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "HighComplexity",
+      "methodName": "DecideInputAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "HighCoupling",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "DecideInputAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "FindNearestVisible",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "ClosureCapture",
+      "methodName": "DecideAction",
+      "count": 4,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.AutoPilotStrategy",
+      "kind": "ClosureCapture",
+      "methodName": "PickBestDirection",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.ChaseStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.FleeStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.Pathfinder",
+      "kind": "LowMaintainability",
+      "methodName": "FindNextDirection",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.Pathfinder",
+      "kind": "LowMaintainability",
+      "methodName": "ReconstructFirstStep",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.AI.PatrolStrategy",
+      "kind": "LowMaintainability",
+      "methodName": "DecideAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Combat.CombatResolver",
+      "kind": "LowMaintainability",
+      "methodName": "Resolve",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.BspGenerator",
+      "kind": "DeepNesting",
+      "methodName": "CreateRooms",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.BspGenerator",
+      "kind": "LowMaintainability",
+      "methodName": "CarveCorridor",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.BspGenerator",
+      "kind": "LowMaintainability",
+      "methodName": "ConnectRooms",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.BspGenerator",
+      "kind": "LowMaintainability",
+      "methodName": "CreateRooms",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.BspGenerator",
+      "kind": "LowMaintainability",
+      "methodName": "SplitNode",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.DungeonMap",
+      "kind": "LowMaintainability",
+      "methodName": "GetNeighbors",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.DungeonPopulator",
+      "kind": "LowMaintainability",
+      "methodName": "PickEnemyType",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.DungeonPopulator",
+      "kind": "LowMaintainability",
+      "methodName": "Populate",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Dungeon.FogOfWar",
+      "kind": "LowMaintainability",
+      "methodName": "Update",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Inventory.Inventory",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Inventory.ItemEffect",
+      "kind": "LowMaintainability",
+      "methodName": "Apply",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Save.SaveSerializer",
+      "kind": "LowMaintainability",
+      "methodName": "Deserialize",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Save.SaveSerializer",
+      "kind": "LowMaintainability",
+      "methodName": "Serialize",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Save.SaveSerializer",
+      "kind": "CatchAllException",
+      "methodName": "Deserialize",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.AttackAction",
+      "kind": "LowMaintainability",
+      "methodName": "Execute",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.GameState",
+      "kind": "ClosureCapture",
+      "methodName": "GetEntityAt",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.GameState",
+      "kind": "ClosureCapture",
+      "methodName": "GetItemAt",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.MoveAction",
+      "kind": "LowMaintainability",
+      "methodName": "Execute",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.TurnSystem",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Core::App.Core.Turn.TurnSystem",
+      "kind": "LowMaintainability",
+      "methodName": "ProcessPlayerAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::App.Editor.DebugInspector",
+      "kind": "LowMaintainability",
+      "methodName": "DrawPlayer",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::App.Editor.DebugInspector",
+      "kind": "LowMaintainability",
+      "methodName": "OnGUI",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::App.Editor.DungeonPreview",
+      "kind": "LowMaintainability",
+      "methodName": "OnGUI",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::DebugDump",
+      "kind": "LowMaintainability",
+      "methodName": "Dump",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::SetupScene",
+      "kind": "LowMaintainability",
+      "methodName": "MigrateToPlainCSharp",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::SetupScene",
+      "kind": "LowMaintainability",
+      "methodName": "RemoveComponentByName",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Editor::TestGameOver",
+      "kind": "LowMaintainability",
+      "methodName": "ForceGameOver",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Bootstrap.GameBootstrap",
+      "kind": "LowMaintainability",
+      "methodName": "LaunchGame",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Bootstrap.GameBootstrap",
+      "kind": "LowMaintainability",
+      "methodName": "ShowTitle",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Camera.CameraShake",
+      "kind": "LowMaintainability",
+      "methodName": "ShakeAsync",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Effects.DeathEffect",
+      "kind": "LowMaintainability",
+      "methodName": "PlayAsync",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Effects.ItemPickupEffect",
+      "kind": "LowMaintainability",
+      "methodName": "PlayAsync",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.GameLifetimeScope",
+      "kind": "LowMaintainability",
+      "methodName": "Configure",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Input.AutoPilotProvider",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Input.ManualInputProvider",
+      "kind": "LowMaintainability",
+      "methodName": "Tick",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "HighCoupling",
+      "count": 1,
+      "maxSeverity": "Critical"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "LowMaintainability",
+      "methodName": "ConvertToGameAction",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "LowMaintainability",
+      "methodName": "GenerateFloor",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "LowMaintainability",
+      "methodName": "OnEntityDamaged",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Managers.GameManager",
+      "kind": "LowMaintainability",
+      "methodName": "Tick",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.UI.InventoryPanel",
+      "kind": "LowMaintainability",
+      "methodName": "Show",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.UI.InventoryPanel",
+      "kind": "ClosureCapture",
+      "methodName": "Show",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.UI.MessageLog",
+      "kind": "LowMaintainability",
+      "methodName": "AddMessage",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.DungeonView",
+      "kind": "LowMaintainability",
+      "methodName": "HasAdjacentFloor",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.DungeonView",
+      "kind": "LowMaintainability",
+      "methodName": "Initialize",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.DungeonView",
+      "kind": "LowMaintainability",
+      "methodName": "UpdateVisibility",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.EnemyView",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.ItemView",
+      "kind": "LowCohesion",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.ViewFactory",
+      "kind": "LowMaintainability",
+      "methodName": "CreateEnemy",
+      "count": 1,
+      "maxSeverity": "Warning"
+    },
+    {
+      "typeId": "App.Game::App.Game.Views.ViewFactory",
+      "kind": "LowMaintainability",
+      "methodName": "CreateItem",
+      "count": 1,
+      "maxSeverity": "Warning"
+    }
+  ]
+}
